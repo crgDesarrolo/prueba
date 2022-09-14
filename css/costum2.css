@@ -1,0 +1,76 @@
+p.intro  {
+	padding: 12px 0px;
+ 	margin: 0px;
+}
+
+p.intro {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+p.intro {
+	color: rgba(0, 0, 0, 0.5);
+  	font-size: 1.1em;
+  	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  	font-weight: 400;
+  	line-height: 1.8;
+}
+
+.jumbotron{
+	background-image: url(../img/eventos.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: rgb(255.255,255,255);
+	font-weight: 400;
+	
+
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 180px 0;
+  }
+
+  .jumbotron.galery{
+  background-image: url(../img/imagen12.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: rgb(255.255,255,255);
+  font-weight: 400;
+  
+
+}
+@media screen and (min-width: 768px) {
+  .jumbotron.galery{
+    padding: 25px 0;
+  }
+
+  .panel {
+  background-color: #ffffff;
+  }
+
+  .panel-info > .panel-heading {
+  color: #fff;
+  background-color: #df7a1f;
+}
+
+.panel-info {
+  border-color: #fff;
+}
+
+.panel-info > .panel-heading {
+  color: #fff;
+  background-color: #df7a1f ;
+  border-color: #df7a1f ;
+}
+
+hr {
+  height: 4px;
+  margin-left: 15px;
+  margin-bottom:-3px;
+}
+.hr-warning{
+  background-image: -webkit-linear-gradient(left, rgba(210,105,30,.8), rgba(210,105,30,.6), rgba(0,0,0,0));
+}
